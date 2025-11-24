@@ -1,0 +1,68 @@
+# ---------------------------
+# Python cache / build files
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# Virtual Environments
+# ---------------------------
+venv/
+env/
+.venv/
+ENV/
+
+# ---------------------------
+# PyInstaller build folders
+# ---------------------------
+build/
+dist/
+*.spec
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+logs/
+
+# ---------------------------
+# Temporary files
+# ---------------------------
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ---------------------------
+# OS specific
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# IDE / Editor files
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+# Project specific
+# ---------------------------
+
+# Ignore ALL PDFs anywhere in the repo
+*.pdf
+
+# Ignore RAR archives
+*.rar
+
+# Keep pdfs folder but ignore its contents
+pdfs/*
+!pdfs/.gitkeep
+
+# Temporary stamp file
+___temp_signature.pdf
+
+# Ignore EXE (optional)
+*.exe
